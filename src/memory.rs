@@ -2,6 +2,7 @@
 
 /// A simple memory module for the virtual machine.
 pub struct Memory {
+    /// A vector that stores the memory data.
     pub data: Vec<i32>,
 }
 

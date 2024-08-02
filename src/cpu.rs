@@ -4,8 +4,13 @@ use crate::memory::Memory;
 
 /// Represents the CPU of the virtual machine.
 pub struct CPU {
+    /// General-purpose registers for storing intermediate values.
     pub registers: [i32; 4],
-    pub pc: usize, // Program counter
+
+    /// Program counter (PC) that points to the current instruction in memory.
+    pub pc: usize,
+
+    /// Memory associated with the CPU.
     pub memory: Memory,
 }
 
