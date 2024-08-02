@@ -1,0 +1,10 @@
+[package]
+name = "root_vm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "root_vm"
+path = "src/lib.rs"
