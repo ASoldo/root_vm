@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/eab41682-7463-4db6-91eb-252892295a23)
+
 # Root_VM
 
 ## Simple Virtual Machine in Rust
